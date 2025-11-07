@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Titre {
+  font-size: 55px;
+  color: #1a191d;
+  font-weight: bold;
+  text-align: center;
+  font-family: poney;
+}
+
+.image {
+  width: 13%;
+  object-fit: cover;
+}
+
+.playfair-display-poney {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to right, #cfd3d6, #1a191d);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, left, right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.grossepartie1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+.Main {
+  width: 50%;
+  height: 300px;
+  background-color: #1a191d;
+  background-position: left;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 20px;
+  padding: 20px;
+  color: #cfd3d6;
+  border: 5px solid;
+  border-radius: 20px 20px 30px;
+  gap: 30px;
+  border-radius: 50px;
+}
+
+.blabla1 {
+  color: #cfd3d6;
+  font-size: 20px;
+}
+
+body {
+  background-color: #1a191d;
+}
+
+.Main2 {
+  align-items: right;
+  display: flex;
+}
+
+.grossepartie2 {
+  width: 100%;
+  height: 400px;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+}
+
+.Main3 {
+  width: 70%;
+  height: 200px;
+  background-color: #1a191d;
+  background-position: left;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 20px;
+  padding: 20px;
+  color: #cfd3d6;
+  border: 5px solid;
+  gap: 30px;
+  border-radius: 50px;
+}
+
+.blabla2 {
+  color: #cfd3d6;
+  font-size: 20px;
+}
+.grossepartie3 {
+  width: 100%;
+  height: 400px;
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  gap: 50%;
+}
+.footer {
+  display: flex;
+}
+.disque1 {
+  justify-content: left;
+  margin-right: 800px;
+}
+.disque2 {
+  justify-content: right;
+}
+.disque1:hover {
+  transform: scale(2.2);
+  transition: transform 0.3s ease;
+
+}
+.disque2:hover {
+  transform: scale(2.2);
+  transition: transform 0.3s ease;
+}
